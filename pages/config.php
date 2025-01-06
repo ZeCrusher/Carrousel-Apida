@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	$_SESSION['last_version'] ="V2022-06-30-TSK"; 
+	$_SESSION['last_version'] ="2025-01-06-TSK"; 
 
         /* Les clés API permettent de lire et écrire des données sur OpenAgenda via l'API. */
 	$keys = array(
@@ -10,8 +10,8 @@
 	);
 
 	$agendaUid=65630513; /* <uid:65630513> */
-	// $territoireIds=array("5693912"); /* Conseil de territoire : Pays de Martigues */ 
-//	 $selectionIds=array("133484");
+	// 	 $territoireIds=array("5693912"); /* Conseil de territoire : Pays de Martigues */ 
+	//	 $selectionIds=array("133484");
 
 	$selectionIds=array("130723","133484","138205"); 
 	
