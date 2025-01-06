@@ -23,7 +23,7 @@
 	
 	$apiDomain = "http://api.apidae-tourisme.com/api/";
 	
-	$apiKey="V0env9EH"; /* QTfpNkyX <- OK | PhrnH4Dd */
+	$apiKey="xxxxxx"; /* xxxxxx <- OK | xxxxxx */
 	$projetId="6775"; /*  	6556 Martigues - OpenAgenda */ 
 	$nbResult = '5000';
 	// $dureemax = "50";
