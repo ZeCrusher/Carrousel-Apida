@@ -60,7 +60,7 @@ session_start();
 	$sizeopenagenda=0;
 	do 	{
 		
-		$data_openagenda	[$sizeopenagenda]=$obj->events[$sizeopenagenda]->title->fr;
+		    $data_openagenda[$sizeopenagenda]=$obj->events[$sizeopenagenda]->title->fr; /* Faire une option pour les autres langues */ 
 		$data_openagenda_uid[$sizeopenagenda]=$obj->events[$sizeopenagenda]->uid;
 		$data_openagenda_loc[$sizeopenagenda]=$obj->events[$sizeopenagenda]->location->uid;		
 	// echo $data_openagenda_loc[$sizeopenagenda]." ** <br>";
